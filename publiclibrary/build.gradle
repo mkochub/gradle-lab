@@ -11,6 +11,4 @@ repositories {
 dependencies {
     // TODO resolve dependency to SecretClass
     // TODO resolve dependency to ExposedLibrary
-    implementation project(":SecretClass")
-    api project(":ExposedLibrary")
 }
