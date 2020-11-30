@@ -1,3 +1,7 @@
-##### Hello World
+##### Getting started
 
-Add stuff here later...
+After cloning this repository, verify that things work by running
+
+```bash
+./gradlew :runMain
+```
