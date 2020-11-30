@@ -1,0 +1,10 @@
+rootProject.name = 'example1'
+include 'SecretClass'
+include 'publiclibrary'
+include 'ExposedLibrary'
+include 'CompileDependency'
+include 'RuntimeDependency'
+include 'SharedInterface'
+include 'implementation1'
+include 'implementation2'
+

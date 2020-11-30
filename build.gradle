@@ -1,0 +1,22 @@
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java-library'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    //TODO resolve dependency to public library
+    implementation project(':publiclibrary')
+    //TODO resolve dependency to the runtime implementation
+    compileOnly project(':implementation1')
+    runtimeOnly project(':implementation2')
+}
+
+task runMain(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    main = 'Main'
+}
