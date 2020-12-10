@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'com.0'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+    implementation 'com.gradlelab:bonus-library-example:0.0.1-SNAPSHOT'
+}
+

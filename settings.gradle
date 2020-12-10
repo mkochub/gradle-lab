@@ -7,4 +7,6 @@ include 'RuntimeDependency'
 include 'SharedInterface'
 include 'implementation1'
 include 'implementation2'
+include 'bonus-library-example'
+include 'bonus-application-example'
 
