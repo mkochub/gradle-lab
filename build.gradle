@@ -15,5 +15,5 @@ dependencies {
 
 task runMain(type: JavaExec) {
     classpath = sourceSets.main.runtimeClasspath
-    main = 'Main'
+    main = 'com.example.Main'
 }
